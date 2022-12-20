@@ -42,7 +42,7 @@
  * Local Preprocessor #define Constants
 \*============================================================================*/
 //TODO: Cambiar si se cambia el topico principal publicar RcbCmmn
-#define STARTINDEXSUBTOPIC 41   // Topic: IsraXav/Jardin/Ctrl_Hidro/Tomates/RcbCmmn 41 chars
+#define STARTINDEXSUBTOPIC 42   // Topic: IsraXav/Jardin/Ctrl_Riego/Gardenia/RcbCmmn 42 chars
 
 /*============================================================================*\
  * Local Preprocessor #define MACROS
@@ -64,7 +64,7 @@ El_SsubTopic_Es_T;
 \*============================================================================*/
 //MQTT Topics
 //TODO: Cambiar si es para un nuevo topico principal
-const char* MQTT_TOPIC               = "IsraXav/Jardin/Ctrl_Hidro/Tomates";
+const char* MQTT_TOPIC               = "IsraXav/Jardin/Ctrl_Riego/Gardenia";
 //MQTT Pub Topics
 const char* MQTT_PUBTOPIC_NIVHUMEDAD = "/NivDeHumedad";
 const char* MQTT_PUBTOPIC_INA3221VCS = "/INA3221VCS";
@@ -92,7 +92,8 @@ const char HOST_MQTT_DEVICE_ID[] = "ESP8266_V01_CHT";   //ID del dispositivo Con
 const char MQTT_STATE_ON[] = "ON";
 const char MQTT_STATE_OFF[] = "OFF";
 
-const char MQTT_IPSERVER[] = "192.168.17.77";
+//TODO: Cambiar IP del servidor MQTT
+const char MQTT_IPSERVER[] = "192.168.17.58";
 const char MQTT_PORT[] = "1883";
 
 bool MsjMQTTRcb = false;

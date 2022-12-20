@@ -296,7 +296,7 @@ void Fun_WifiConnect()
 
   //TODO: Cambiar tambien el nombre de la Control en el web interface
   server_ota.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
-    request->send(200, "text/plain", "Control Hidroponico Tomates V1.1");
+    request->send(200, "text/plain", "Control Riego Gardenia V1.1");
   });
 
   AsyncElegantOTA.begin(&server_ota);    // Start ElegantOTA

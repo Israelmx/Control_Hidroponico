@@ -43,8 +43,8 @@
 /*============================================================================*\
  * Local Preprocessor #define Constants
 \*============================================================================*/
-#define CORRIENTE_BAJA_NO_REGAR 800.00
-#define CORRIENTE_ALTA_NO_REGAR 1800.00
+#define CORRIENTE_BAJA_NO_REGAR 150.00
+#define CORRIENTE_ALTA_NO_REGAR 270.00
 
 /*============================================================================*\
  * Local Preprocessor #define MACROS

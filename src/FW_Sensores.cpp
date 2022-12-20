@@ -294,7 +294,7 @@ void Fun_Leer_INA3221()
   Serial.println(" A");
   Serial.print("INA3221 BL Shunt Voltage: ");
   Serial.print(variables_ina3221_bl[INA3221_VOLTAJE_SHNT], 5);
-  Serial.println(" A");
+  Serial.println(" mV");
   #endif
 
   if(!Btn_Press_Flag)
@@ -333,7 +333,7 @@ void Fun_Leer_INA3221()
   Serial.println(" A");
   Serial.print("INA3221 LF Shunt Voltage: ");
   Serial.print(variables_ina3221_ld[INA3221_VOLTAJE_SHNT], 5);
-  Serial.println(" A");
+  Serial.println(" mV");
   #endif
 
   INA_Corriente_Carga = variables_ina3221_ld[INA3221_CORRIENTE];
